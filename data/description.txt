@@ -1,0 +1,1 @@
+Set of thermodynamic data on main combustion products retrieved from JANAF database
