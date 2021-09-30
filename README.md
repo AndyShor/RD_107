@@ -1,5 +1,5 @@
 # RD107 - legendary rocket engine
-This repository contains model case for CFD simulation of RD107 rocket engine using free and open source CFD package OpenFOAM.
+This repository contains model case for CFD simulation of [RD107](https://en.wikipedia.org/wiki/RD-107) rocket engine using free and open source CFD package OpenFOAM.
 Together with the model case there are some auxiliary materials that are used to define case input such as scripts generating the nozzle geometry,
 scripts calculating combustion products properties needed for the model.
 I wrote a longread article describing technical side of this simulation and a bit of history - why I am so excited specifically about RD107.
