@@ -8,7 +8,11 @@ I also wrote another short article about my experience of running this case on A
 Here is an example of the model results, this is temperature distribution in the RD107 exhaust plume in the first 25 ms after ignition at the sea level.
 Enjoy propagating shock waves, colliding shock waves ([Mach diamonds](https://en.wikipedia.org/wiki/Shock_diamond)) and imagine the roar it creates.
 
+Overexpanded flow and Mach diamonds for the flow whe starting at sea level
 ![flow](/figures/T_ambient_p=100kPa.gif)
+
+Almost matched flow in the mid-air where ambient pressure is a third of sea level pressure
+![flow](/figures/T_ambient_p=30kPa.gif)
 
 # Repo structure
 This repository has the following structure
