@@ -49,5 +49,13 @@ heat capacity for this RP-1/LOX case
 
 ![Cp](/figures/Combustion_product_Cp.png)
 
+# Run on AWS
+
+Take advantage of affordable cloud computing and run the case on AWS (article on how to do it)
+With a properly selected instances and organized storage a single run costs about $1
+
+![AWS](/figures/openFOAM_AWS.jpg)
+
+
 
 
