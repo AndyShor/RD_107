@@ -6,6 +6,9 @@ to return molecular weight and polynomial fit of Cp(T) based on given compositio
 Several relevant compositions available in the script to chose from
 
 To run cantera simulations use a separate environment
-$cd /this_repo/src
-$conda env create -f cantera_env.yaml
-$conda activate ct-env
+
+```console
+foo@bar:~$ cd /this_repo/src
+foo@bar:~$ conda env create -f cantera_env.yaml
+foo@bar:~$ conda activate ct-env
+```
