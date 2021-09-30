@@ -6,7 +6,7 @@ I wrote a longread article describing technical side of this simulation and a bi
 I also wrote another short article about my experience of running this case on AWS trying to implement best cloud CFD practices.
 
 Here is an example of the model results, this is temperature distribution in the RD107 exhaust plume in the first 25 ms after ignition at the sea level.
-Enjoy propagating shock waves, colliding shock waves ([Mach diamonds](https://en.wikipedia.org/wiki/Shock_diamond) and imagine the roar it creates.
+Enjoy propagating shock waves, colliding shock waves ([Mach diamonds](https://en.wikipedia.org/wiki/Shock_diamond)) and imagine the roar it creates.
 
 ![flow](/figures/T_ambient_p=100kPa.gif)
 
