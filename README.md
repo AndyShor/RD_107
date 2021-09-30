@@ -3,8 +3,10 @@ CFD case for simulation of RD107 rocket engine.
 I wrote a long read article describing technical side of this simulation (here).
 I also wrote another short article about my experience running this case on AWS.
 
+
 Temperature distribution in the first 25 ms after ignition at the sea level
 Enjoy propagating shock waves, colliding shock waves (Mach diamonds) and imagine the roar it creates.
+
 ![flow](/figures/T_ambient_p=100kPa.gif)
 
 # Repo structure
