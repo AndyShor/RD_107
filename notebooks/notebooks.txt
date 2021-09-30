@@ -1,0 +1,4 @@
+Notebooks for auxiliary calculations.
+If you want to just repeat results you don't need to re-run them
+
+rd107_blockMeshDict_generation.ipynb provides inputs for creatinng blockMeshDict file
