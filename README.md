@@ -19,7 +19,7 @@ This repository has the following structure
 * notebooks - contains some Jupyter notebooks used to create generate OpenFOAM geometry and gas settings from JANAF data
 * src - auxiliary python code to keep notebooks more concise
 
-# Run the model youself
+# Run the model yourself
 
 Model case in the /model folder is ready to go, geometry is based on the original drawing of RD107 nozzle
 
