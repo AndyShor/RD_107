@@ -2,6 +2,10 @@
 CFD case for simulation of RD107 rocket engine.
 This repository has the following structure
 
+Temperature distribution in the first 25 ms after ignition at the sea level
+Enjoy propagating shock waves, colliding shock waves (Mach diamonds) and imagine the roar it creates.
+![flow](/figures/T_ambient_p=100kPa.gif)
+
 * data - thermodynamic data of jet engine combustion products, retrieved form JANAF [JANAF](https://janaf.nist.gov/) database and cleaned
 * figures - containes images with the run results as well as nozzle drawing, and few other
 * model - is the OpenFOAM case folder, can be run 'as is' (see below), configured for sea level launch, 'as is' will take ~24h on average laptop
@@ -23,6 +27,5 @@ $rhoCentralFoam
 Beware case takes long time to solve, temperature distribution below took 24h to solve.
 Solved cases visualized with Paraview applying needed symmetries (select rd107.foam file)
 
-Temperature distribution in the first 25 ms after ignition at the sea level
-Enjoy propagating shock waves, colliding shock waves (Mach diamonds) and imagine the roar it creates.
-![flow](/figures/T_ambient_p=100kPa.gif)
+
+
