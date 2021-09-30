@@ -1,11 +1,12 @@
 # RD107 - legendary rocket engine
-CFD case for simulation of RD107 rocket engine.
-I wrote a long read article describing technical side of this simulation (here).
-I also wrote another short article about my experience running this case on AWS.
+This repository contains model case for CFD simulation of RD107 rocket engine using free and open source CFD package OpenFOAM.
+Together with the model case there are some auxiliary materials that are used to define case input such as scripts generating the nozzle geometry,
+scripts calculating combustion products properties needed for the model.
+I wrote a longread article describing technical side of this simulation and a bit of history - why I am so excited specifically about RD107.
+I also wrote another short article about my experience of running this case on AWS trying to implement best cloud CFD practices.
 
-
-Temperature distribution in the first 25 ms after ignition at the sea level
-Enjoy propagating shock waves, colliding shock waves (Mach diamonds) and imagine the roar it creates.
+Here is an example of the model results, this is temperature distribution in the RD107 exhaust plume in the first 25 ms after ignition at the sea level.
+Enjoy propagating shock waves, colliding shock waves ([Mach diamonds](https://en.wikipedia.org/wiki/Shock_diamond) and imagine the roar it creates.
 
 ![flow](/figures/T_ambient_p=100kPa.gif)
 
