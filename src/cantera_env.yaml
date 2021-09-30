@@ -1,0 +1,13 @@
+name: ct-env
+channels:
+- cantera  # or use cantera/label/dev for alpha/beta packages
+- defaults
+dependencies:
+- python  # Cantera supports Python 3.6 and up
+- cantera
+- ipython  # optional (needed for nicer interactive command line)
+- jupyter  # optional (needed for Jupyter Notebook)
+- matplotlib  # optional (needed for plots)
+- python-graphviz  # optional (needed for reaction path diagrams)
+- h5py  # optional (needed for HDF/H5 output)
+- pandas  # optional (needed for pandas interface)
