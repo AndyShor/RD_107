@@ -12,7 +12,7 @@ Enjoy propagating shock waves, colliding shock waves (Mach diamonds) and imagine
 # Repo structure
 This repository has the following structure
 
-* data - thermodynamic data of jet engine combustion products, retrieved form JANAF [JANAF](https://janaf.nist.gov/) database and cleaned
+* data - thermodynamic data of jet engine combustion products, retrieved form [JANAF](https://janaf.nist.gov/) database and cleaned
 * figures - containes images with the run results as well as nozzle drawing, and few other
 * model - is the OpenFOAM case folder, can be run 'as is' (see below), configured for sea level launch, 'as is' will take ~24h on average laptop
 * notebooks - contains some Jupyter notebooks used to create generate OpenFOAM geometry and gas settings from JANAF data
@@ -36,7 +36,12 @@ Solved cases visualized with Paraview applying needed symmetries (select rd107.f
 
 If you want to use the case as a startinng point use provided notebooks to change geometry.
 If your case runs on other oxidizer-fuel pair than RP-1/LOX  (Methane/LOX, Hydrogen/LOX, N₂O₄/UDMH)
-you can use provided notebooks, JANAF database and other references to calculate combustion product composition,
-molecular mass, and heat capacity (and replace data in /model/constant/thermophysicalProperties)
+you can use provided notebooks, JANAF database and other references (for fuel to oxidizer ratio)
+to calculate combustion product composition, molecular mass, and heat capacity (and replace data in /model/constant/thermophysicalProperties)
+
+heat capacity for this RP-1/LOX case
+
+![Cp](/figures/Combustion_product_Cp.png)
+
 
 
