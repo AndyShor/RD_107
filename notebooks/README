@@ -1,4 +1,5 @@
 Notebooks for auxiliary calculations.
 If you want to just repeat results you don't need to re-run them
+If you want to try for example another nozzle geometry or fuel-oxidizer mix - use these to get appropriate input data or geometry
 
 rd107_blockMeshDict_generation.ipynb provides inputs for creatinng blockMeshDict file
