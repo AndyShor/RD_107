@@ -4,8 +4,8 @@
 This repository contains model case for CFD simulation of [RD107](https://en.wikipedia.org/wiki/RD-107) rocket engine using free and open source CFD package OpenFOAM.
 Together with the model case there are some auxiliary materials that are used to define case input such as scripts generating the nozzle geometry,
 scripts calculating combustion products properties needed for the model.
-I wrote a longread article describing technical side of this simulation and a bit of history - why I am so excited specifically about RD107.
-I also wrote another short article about my experience of running this case on AWS trying to implement best cloud CFD practices.
+I wrote a [longread article](https://andrey-shornikov.medium.com/taming-of-the-fire-tribute-to-the-unsung-hero-of-space-exploration-96ccb9964b00) describing technical side of this simulation and a bit of history - why I am so excited specifically about RD107.
+I also wrote another [short(er) article](https://medium.com/@andrey-shornikov/become-a-rocket-scientist-for-0-99-with-a-capstone-project-100bf3944c02) about my experience of running this case on AWS trying to implement best cloud CFD practices.
 
 Here is an example of the model results, this is temperature distribution in the RD107 exhaust plume in the first 25 ms after ignition at the sea level.
 Enjoy propagating shock waves, colliding shock waves ([Mach diamonds](https://en.wikipedia.org/wiki/Shock_diamond)) and imagine the roar it creates.
@@ -53,7 +53,7 @@ heat capacity for this RP-1/LOX case
 
 # Run on AWS
 
-Take advantage of affordable cloud computing and run the case on AWS (article on how to do it)
+Take advantage of affordable cloud computing and run the case on AWS (my [article](https://medium.com/@andrey-shornikov/become-a-rocket-scientist-for-0-99-with-a-capstone-project-100bf3944c02) on how to do it)
 With a properly selected instances and organized storage a single run costs about $1
 
 ![AWS](/figures/openFOAM_AWS.jpg)
