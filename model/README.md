@@ -5,3 +5,5 @@ Copy files, edit values i p file
 then run usual 
 $setFields
 $rhoCentralFoam
+
+For running on AWS use attached shell script (modify names) that will copy the data to an s3 bucket and terminate your spot instance.
